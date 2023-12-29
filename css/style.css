@@ -1,0 +1,81 @@
+/*1.Universal selector*/
+*{
+	font-family: cursive;
+	padding:0;
+	margin:0;
+}
+/*Element name*/
+img{
+	border-radius:20px;
+	box-shadow:5px 5px 10px 2px grey;
+}
+/*id name*/
+#img{
+	margin:auto;
+	width:50%;
+}
+#newdiv{
+	text-align:center;
+}
+/*class name*/
+ .head{
+	 padding:20px;
+	 text-align:center;
+	background-color:yellow;
+}
+/*Grouping selector*/
+button, input{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100px;
+	background-color:grey;
+	border:none;
+	color:white;
+	padding:7px;
+	margin:20px;
+}
+.head2{
+	text-align:center;
+	background-color:yellow;
+	padding:20px;
+}
+/*Descendent selector*/
+#newdiv2 p{
+	font-family:"Gill Sans", sans-serif;
+	padding:10px;
+}
+/*child selector*/
+#newdiv>a{
+	display:inline-block;
+	text-decoration:none;
+	background-color:navy;
+	color:white;
+	width:100px;
+	padding:5px;
+	margin:20px;
+}
+/*Adjacent sibiling selector*/
+#img+h1{
+	color:red;
+}
+/*General sibiling selector*/
+#newdiv~p{
+	color:blue;
+	font-size:20px;
+	font-weight:bold;
+}
+/*psuedo class*/
+#newdiv>a:hover{
+	color:black;
+	background-color:pink;
+	box-shadow:2px 2px 5px 2px red;
+}
+button:hover{
+	background-color:lightgreen;
+	color:black;
+}
+input:hover{
+	box-shadow:2px 2px 5px 2px skyblue;
+	background-color:white;
+	color:black;
+}
